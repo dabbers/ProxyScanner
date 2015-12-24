@@ -7,6 +7,8 @@ All it does is attempts to call its own IP page (which just does :
 echo ($_SERVER["HTTP_CF_CONNECTING_IP"] ? $_SERVER["HTTP_CF_CONNECTING_IP"] :  $_SERVER[ "REMOTE_ADDR" ] );
  ). Then it takes the output IP and checks it against the IP it has. 
 
+ */
+
 $res = call_("http://dab.biz/ip.php", $_GET['proxy']);
 
 //var_dump($res);
