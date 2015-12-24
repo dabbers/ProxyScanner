@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 
 namespace ProxyTool.ProxyFindingParser
 {
-    class nntime : NaiveParsingClass
+    class nntime : IParsingClass
     {
         public nntime()
         {
