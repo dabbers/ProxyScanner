@@ -19,7 +19,7 @@ namespace ProxyTool.ProxyFindingParser
         Regex proxyreg = new Regex(@"onclick=""choice\(\)"" \/></td><td>(.*)<script type=""text/javascript"">document.write\("":""+(.*?)\)<\/script><\/td>");
 
 
-        public override Proxy[] Parse(string source, IWebPageDownloader wc)
+        public Proxy[] Parse(string source, IWebPageDownloader wc)
         {
             List<Proxy> results = new List<Proxy>();
             results.AddRange(getProxies(source));
