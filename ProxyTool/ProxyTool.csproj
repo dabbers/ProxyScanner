@@ -58,6 +58,7 @@
     <Compile Include="ProxyFinderTask.cs" />
     <Compile Include="ProxyFindingParser\NaiveParsingClass.cs" />
     <Compile Include="ProxyFindingParser\ParsingFactory.cs" />
+    <Compile Include="ProxyFindingParser\nntime.com.cs" />
     <Compile Include="ProxyFindingParser\rosinstrument.com.cs" />
     <Compile Include="ProxyTesterTask.cs" />
     <Compile Include="WebPageDownloader.cs">

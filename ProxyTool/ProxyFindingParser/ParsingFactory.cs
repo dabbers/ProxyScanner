@@ -24,6 +24,8 @@ namespace ProxyTool.ProxyFindingParser
             {
                 case "tools.rosinstrument.com":
                     return new rosinstrument();
+                case "nntime.com":
+                    return new nntime();
             }
 
             return new NaiveParsingClass();
