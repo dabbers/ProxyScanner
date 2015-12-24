@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="richTextBox2.Text" xml:space="preserve">
+    <value>123.150.92.91:80
+209.203.212.4:3128
+218.7.132.1:8080
+218.204.131.250:3128
+211.162.79.75:80
+117.177.166.242:8123
+125.39.66.76:8080
+124.68.10.45:80
+182.118.23.7:8081
+211.162.79.66:80
+211.144.81.68:18000
+122.96.59.105:83
+211.174.100.222:8080
+58.253.238.242:80
+111.11.184.83:80
+111.10.48.199:8123
+108.60.208.244:7808
+117.211.83.18:3128
+119.4.95.136:80
+120.202.249.232:8080
+117.139.29.68:8123
+112.0.145.26:8123
+36-237-212-185.dynamic-ip.hinet.net:9064
+112.18.193.178:8123
+193.124.201.198:3131
+37.239.46.18:80
+183.222.182.198:8123
+sophosweb7.ucps.k12.nc.us:8080
+111.161.126.93:8080
+smb-cdg-01.hotspot.hub-one.net:3128
+srtgw.indo.net.id:8080
+sophosweb7.ucps.k12.nc.us:8080
+111.161.126.93:8080
+smb-cdg-01.hotspot.hub-one.net:3128
+savethechildren2-at0.mediaworksit.net:6666
+rs207142.rs.hosteurope.de:8888
+rs207142.rs.hosteurope.de:8888
+rrcs-97-77-104-22.sw.biz.rr.com:80
+pact518.hit.edu.cn:7777
+ns3098368.ip-91-121-192.eu:3128
+ns.create-rainbow.com.tw:3128
+node-f5u.pool-125-24.dynamic.totbb.net:80
+mcarsns.tongji.edu.cn:80
+14.141.142.106:8080
+ip-207-145-146-98.mia.megapath.net:80
+idc-247-112-212-116.hkt.cc:8888
+host-59-241-58-117.alwayson.net.bd:8080
+host-107-150-224-29.dyn.295.ca:8080
+cpe-174-102-184-51.wi.res.rr.com:3128
+96.4.199.40:8080
+58.242.249.56:34015
+92.44.50.84.dyn.estpak.ee:3128
+183.228.38.238:8123
+89.46.101.122:3127
+89.46.101.122:8089
+218.92.227.165:13243
+120.203.26.142:8123
+218.92.227.173:23684
+80.191.247.178:8080
+105.235.219.18:8080
+78.135.85.120:8080
+74.50.126.248:8089
+sophosweb7.ucps.k12.nc.us:8080
+111.161.126.93:8080
+smb-cdg-01.hotspot.hub-one.net:3128
+savethechildren2-at0.mediaworksit.net:6666
+46.173.171.123:8080
+rs207142.rs.hosteurope.de:8888
+rs207142.rs.hosteurope.de:8888
+rrcs-97-77-104-22.sw.biz.rr.com:80
+pact518.hit.edu.cn:7777
+ns3098368.ip-91-121-192.eu:3128
+ns.create-rainbow.com.tw:3128
+node-f5u.pool-125-24.dynamic.totbb.net:80
+mcarsns.tongji.edu.cn:80
+ip-207-145-146-98.mia.megapath.net:80
+host-59-241-58-117.alwayson.net.bd:8080
+host-107-150-224-29.dyn.295.ca:8080
+ezecom.110.74.220.154.ezecom.com.kh:8080
+d19-36.static.icpnet.pl:3128
+cpe-174-102-184-51.wi.res.rr.com:3128
+96.4.199.40:8080
+92.44.50.84.dyn.estpak.ee:3128
+183.228.38.238:8123
+89.46.101.122:3127
+89.46.101.122:8089
+218.92.227.165:13243
+120.203.26.142:8123
+218.92.227.173:23684
+78.24.40.66:8080
+105.235.219.18:8080
+78.135.85.120:8080
+74.50.126.248:8089
+srtgw.indo.net.id:8080
+sophosweb7.ucps.k12.nc.us:8080
+111.161.126.93:8080
+smb-cdg-01.hotspot.hub-one.net:3128
+rs207142.rs.hosteurope.de:8888
+rs207142.rs.hosteurope.de:8888
+rrcs-97-77-104-22.sw.biz.rr.com:80
+pact518.hit.edu.cn:7777
+ns3098368.ip-91-121-192.eu:3128
+ns.create-rainbow.com.tw:3128
+mcarsns.tongji.edu.cn:80
+14.141.142.106:8080
+ip-207-145-146-98.mia.megapath.net:80
+</value>
+  </data>
+  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+</root>
